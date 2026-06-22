@@ -1,4 +1,4 @@
-# 📚 Redmont Publications Website
+# 📚 Book Publications Website
 
 A modern and responsive book publication platform built with **React.js**, **Vite**, **Tailwind CSS**, and **shadcn/ui**. This website helps authors explore publishing services, submit manuscripts, learn about publication policies, and connect with Redmont Publications.
 

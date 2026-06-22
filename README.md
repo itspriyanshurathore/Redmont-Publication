@@ -1,16 +1,55 @@
-# React + Vite
+# 📚 Redmont Publications Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive book publication platform built with **React.js**, **Vite**, **Tailwind CSS**, and **shadcn/ui**. This website helps authors explore publishing services, submit manuscripts, learn about publication policies, and connect with Redmont Publications.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Modern and responsive UI/UX
+* Built with React + Vite for fast performance
+* Styled using Tailwind CSS
+* Reusable components with shadcn/ui
+* Multi-page navigation using React Router DOM
+* Book publication and manuscript submission pages
+* Contact and inquiry forms
+* Publication policies and guidelines
+* Mobile-friendly design
+* Clean component-based architecture
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* Vite
+* Tailwind CSS
+* shadcn/ui
+* React Router DOM
+* Lucide React Icons
 
-## Expanding the ESLint configuration
+## 📖 What I Learned
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+During the development of this project, I learned:
+
+* Creating reusable React components
+* Client-side routing with React Router DOM
+* Dynamic page navigation
+* Building responsive layouts using Tailwind CSS
+* Using shadcn/ui components
+* Project structure and component organization
+* Modern UI design principles
+* State management with React Hooks
+
+## 📂 Project Structure
+
+```bash
+src/
+├── components/
+├── pages/
+├── layouts/
+├── data/
+├── assets/
+├── App.jsx
+└── main.jsx
+```
+
+## 🌐 Live Demo
+
+Add your deployed website link here.

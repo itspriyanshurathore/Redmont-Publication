@@ -16,6 +16,7 @@ import {
   Globe,
   Layers,
   Sparkles,
+  // FaWhatsapp,
 } from "lucide-react";
 
 const services = [
@@ -31,7 +32,7 @@ const services = [
     description:
       "Complete assistance for launching academic journals, including ISSN guidance, editorial workflow, policies and website setup.",
     icon: Clipboard,
-    path: "/services/journal-development",
+    path: "/services/isbn-services",
   },
   {
     title: "Book Publication",
@@ -234,7 +235,7 @@ const ServicesSection = () => {
             </div>
 
             <div className="flex flex-wrap items-center gap-3">
-              <Link to="/consultation">
+              <Link to="https://mail.google.com/mail/?view=cm&fs=1&to=info@redmontpublications.com">
                 <motion.button
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
@@ -253,10 +254,11 @@ const ServicesSection = () => {
                 </motion.button>
               </Link>
               <a
-                href="https://wa.me/91XXXXXXXXXX"
+                href="https://wa.me/+919711052076"
                 target="_blank"
                 rel="noopener noreferrer"
               >
+                {/* <FaWhatsapp size={16} /> */}
                 <motion.button
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
@@ -265,6 +267,7 @@ const ServicesSection = () => {
                   WhatsApp Support
                 </motion.button>
               </a>
+              
             </div>
           </div>
         </div>

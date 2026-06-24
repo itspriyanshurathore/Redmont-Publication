@@ -168,14 +168,14 @@ const navItems = [
 
     dropdown: [
       {
-        label: "Blog",
+        label: "Research Insights",
         path: "/blog",
       },
 
-      {
-        label: "Research Insights",
-        path: "/research-insights",
-      },
+      // {
+      //   label: "Research Insights",
+      //   path: "/research-insights",
+      // },
 
       // {
       //   label: "Knowledge Hub",

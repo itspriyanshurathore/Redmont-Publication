@@ -8,8 +8,8 @@ import {
   Users,
   Send,
   Mail,
-  MessageCircle,
 } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 
 const CTASection = () => {
   return (
@@ -126,7 +126,7 @@ const CTASection = () => {
             </Link>
 
             <a
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=submissions@redmontpublications.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=info@redmontpublications.com"
               target="_blank"
               rel="noopener noreferrer"
               className="flex w-full items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white px-5 py-3 text-sm font-medium text-[#071739] transition-all hover:bg-slate-50"
@@ -141,7 +141,7 @@ const CTASection = () => {
               rel="noopener noreferrer"
               className="flex w-full items-center justify-center gap-2 rounded-xl border border-green-200 bg-white px-5 py-3 text-sm font-medium text-green-600 transition-all hover:bg-green-50"
             >
-              <MessageCircle size={16} />
+              <FaWhatsapp size={16} />
               WhatsApp Consultation
             </a>
           </div>
